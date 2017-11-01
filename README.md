@@ -23,7 +23,11 @@
 	console.log(resultado);
 ```
 
-### Ejercicios de Desarrollo - Solución
+### Ejercicios de Desarrollo
+
+Para realizar estos ejercicios entra a: https://jsfiddle.net/1fk5fyLc/7/ Recuerda documentar todos los pasos en un archivo llamado tunombre.md para que puedas subir tus respuestas a la plataforma.
+
+### Solución:
 
 - Pon tu nombre al atributo value del campo first name
 ```javascript
