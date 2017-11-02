@@ -47,7 +47,7 @@ $('select').attr('name');
 ```
 - Escoge la opción Female de la pregunta de género.
 ```javascript
-$('input[value="female"]').prop("checked", true);
+$('input[value="female"]').attr("checked", true);
 ```
 - Encuentra la primera form del documento y pon el atributo name = personal_info
 ```javascript
