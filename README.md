@@ -43,7 +43,7 @@ $('label[name="first_name_label"]').text('Tu nombre');
 ```
 - Obtén el valor del atributo 'name' del campo Favorite Day of The Week
 ```javascript
-$('select').attr('name');
+var name_favday = $('select').attr('name');
 ```
 - Escoge la opción Female de la pregunta de género.
 ```javascript
@@ -51,16 +51,16 @@ $('input[value="female"]').attr("checked", true);
 ```
 - Encuentra la primera form del documento y pon el atributo name = personal_info
 ```javascript
-$('form:eq(0)').attr('name', 'personal_info');
+$('form').eq(0).attr('name', 'personal_info');
 ```
 - Encuentra la primera **(segunda?)** form del documento y pon el atributo name = job_info
 ```javascript
-$('form:eq(1)').attr('name', 'job_info');
+$('form').eq(1).attr('name', 'job_info');
 ```
 - Agrega un título h1 a cada una de las formas que diga 'Entrevista personal', 'Entrevista de trabajo' respectivamente
 ```javascript
-$('form:eq(0)').before('<h1>Entrevista Personal</h1>');
-$('form:eq(1)').before('<h1>Entrevista de Trabajo</h1>');
+$('form').eq(0).attr('name', 'personal_info');
+$('form').eq(1).attr('name', 'job_info');
 ```
 - Agrega un título a la pregunta Male/Female 'Gender'
 ```javascript
